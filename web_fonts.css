@@ -1,0 +1,51 @@
+/* General setup */
+
+@font-face {
+    font-family: 'heading';
+    src: url('fonts/Museo_Slab_500italic-webfont.woff2') format('woff2'),
+         url('fonts/Museo_Slab_500italic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'para';
+    src: url('fonts/acherusgrotesque-regular-webfont.woff2') format('woff2'),
+         url('fonts/acherusgrotesque-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+html {
+  font-size: 10px;
+  margin: 0;
+  font-family: sans-serif;
+}
+
+body {
+  width: 80%;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* Typography */
+
+h1 {
+  /*font-family: 'heading', sans-serif;*/
+  /*font-family: 'Zilla Slab Highlight', cursive;*/
+  font-size: 3.2rem;
+}
+
+h2 {
+  /*font-family: 'heading', sans-serif;*/
+  font-family: 'Zilla Slab Highlight', cursive;
+  font-size: 2.4rem;
+}
+
+p {
+  /*font-family: 'para', sans-serif;*/
+  font-family: 'Pacifico', cursive;
+  font-size: 2.4rem;
+  line-height: 1.6;
+  word-spacing: 0.6rem;
+}
